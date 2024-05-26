@@ -12,9 +12,7 @@ export default function Footer() {
             <li className="cursor-pointer">Newsletter Engine</li>
           </ul>
         </nav>
-        <p className="text-gray-600">
-          &copy; Emailer X | Designed by BRIX Templates | Powered by Webflow
-        </p>
+        <p className="text-gray-600">Made with ❤️ in India</p>
       </div>
     </footer>
   );

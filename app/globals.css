@@ -105,6 +105,38 @@
     .link-underline-wrapper .underline-wrapper {
         @apply w-full h-1 bg-secondary1 mt-4 min-h-[2px]
     }
+
+    .cta-shape-1{
+        width: 499px;
+        min-height: 621px;
+        background-image: linear-gradient(rgba(255, 255, 255, .2), rgba(255, 255, 255, 0));
+        border-radius: 30px;
+        position: absolute;
+        bottom: -217px;
+        right: 9px;
+        transform: rotate(51deg);
+    }
+
+    .cta-shape-2{
+        width: 506px;
+        min-height: 577px;
+        background-image: linear-gradient(rgba(255, 255, 255, .2), rgba(255, 255, 255, 0));
+        border-radius: 30px;
+        position: absolute;
+        bottom: -299px;
+        right: 304px;
+        transform: rotate(51deg);
+    }
+    .cta-shape-3{
+        width: 356px;
+        min-height: 477px;
+        background-image: linear-gradient(rgba(255, 255, 255, .2), rgba(255, 255, 255, 0));
+        border-radius: 30px;
+        position: absolute;
+        bottom: -272px;
+        right: 685px;
+        transform: rotate(51deg);
+    }
 }
     
   

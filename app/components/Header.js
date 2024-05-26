@@ -15,17 +15,17 @@ export default function Header() {
             src="/logo.svg"
             alt="Emailer X Webflow Template - Logo"
             loading="eager"
-            width={149}
-            height={33}
+            width={298}
+            height={66}
           />
-          <div class="w-px min-h-14 bg-neutral-300 mx-8"></div>
+          <div className="w-px min-h-14 bg-neutral-300 mx-8"></div>
         </a>
         <nav className="mr-auto">
           <ul className="flex space-x-4">
             <li>
               <Link
                 className="cursor-pointer text-neutral-600 transition-colors duration-200 hover:text-primary text-lg mr-8"
-                to="section1"
+                to="home"
                 smooth={true}
                 duration={500}
               >

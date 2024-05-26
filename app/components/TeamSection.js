@@ -2,7 +2,7 @@ import Image from "next/image";
 export default function TeamSection() {
   return (
     <section className="py-20 bg-neutral-100">
-      <div className="container mx-auto">
+      <div className="container mx-auto max-w-3xl">
         <h2 className="text-center text-neutral-800 font-bold mb-11">
           Who's behind the newsletter
         </h2>
@@ -18,8 +18,8 @@ export default function TeamSection() {
                 height={350}
               />
             </div>
-            <div className="max-w-lg">
-              <div className="my-5">
+            <div className="px-5">
+              <div className="">
                 <h3 className="text-neutral-800 font-bold">John Carter</h3>
                 <div className="text-primary">
                   Serial Entrepreneur &amp; Angel VC
